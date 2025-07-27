@@ -1,0 +1,215 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dfc4c3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ------------------------ */
+/* Encabezado principal    */
+/* ------------------------ */
+.encabezado {
+  width: 100%;
+  background-color: #5e1014;
+  padding: 0.52vw 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.78vw;
+}
+
+.logo-link img {
+  width: 6.25vw;
+  height: auto;
+}
+
+.logo-link h1 {
+  font-size: 1.82vw;
+  color: #fff;
+  letter-spacing: 0.05vw;
+}
+
+/* ------------------------ */
+/* FORMULARIO DE REGISTRO  */
+/* ------------------------ */
+.contenedor-registro {
+  width: 80vw;
+  margin: 3vw auto;
+  background-color: #fef1ef;
+  padding: 3vw;
+  border-radius: 1.2vw;
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.15);
+}
+
+.contenedor-registro h2 {
+  text-align: center;
+  font-size: 2vw;
+  color: #8C2125;
+  margin-bottom: 2vw;
+}
+
+.formulario label {
+  display: block;
+  font-size: 1vw;
+  margin-bottom: 0.5vw;
+  font-weight: bold;
+  color: #8C2125;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+  width: 100%;
+  padding: 0.8vw;
+  font-size: 1vw;
+  border-radius: 0.6vw;
+  border: 0.1vw solid #ccc;
+  margin-bottom: 1.5vw;
+  background-color: #fff;
+  transition: border 0.3s ease;
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+  border: 0.1vw solid #8C2125;
+  outline: none;
+}
+
+.boton-registrarse {
+  display: inline-block;
+  background-color: #8C2125;
+  color: white;
+  padding: 10px 20px;
+  text-align: right;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.boton-registrarse:hover {
+  background-color: #8C2125;
+}
+
+
+.registro-texto a {
+  color: #8c2125;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+.registro-texto a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------ */
+/* Pie de Página */
+/* ------------------------ */
+.footer {
+  background-color: #8C2125;
+  padding: 1.6vw 5vw;
+  color: #fff;
+  font-size: 0.73vw;
+}
+
+.footer-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.footer-columna {
+  flex: 1;
+  min-width: 13vw;
+}
+
+.footer-columna h3 {
+  color: #ffffff;
+  margin-bottom: 0.5vw;
+}
+
+.footer-columna ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0.8vw;
+}
+
+.footer-columna li {
+  margin-bottom: 0.4vw;
+}
+
+.footer-columna a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-columna a:hover {
+  color: #fddada;
+  text-decoration: underline;
+}
+
+.footer-columna p {
+  margin: 0.3vw 0;
+  line-height: 1.5;
+}
+
+.derechos {
+  margin-top: 1vw;
+  font-size: 0.65vw;
+  color: #ddd;
+}
+
+/* ------------------------ */
+/* Responsive */
+/* ------------------------ */
+@media screen and (max-width: 768px) {
+  .contenedor-registro {
+    width: 92vw;
+    padding: 5vw;
+  }
+
+  .contenedor-registro h2 {
+    font-size: 6vw;
+  }
+
+  .formulario label,
+  .formulario input,
+  .formulario select,
+  .formulario textarea {
+    font-size: 4vw;
+    padding: 3vw;
+  }
+
+  .boton-principal {
+    font-size: 4vw;
+    padding: 3vw;
+  }
+
+  .logo-link img {
+    width: 12vw;
+  }
+
+  .logo-link h1 {
+    font-size: 5vw;
+  }
+}
