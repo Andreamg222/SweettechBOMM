@@ -110,6 +110,17 @@ body {
   background-color: #8C2125;
 }
 
+.registro-texto a {
+  color: #8c2125;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+.registro-texto a:hover {
+  text-decoration: underline;
+}
+
 /* ------------------------ */
 /* Pie de Página */
 /* ------------------------ */
