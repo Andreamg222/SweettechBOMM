@@ -94,7 +94,7 @@ body {
 }
 
 /* BOTÓN */
-.btn.registrarse {
+.boton-registrarse {
   background-color: #c06568;
   color: white;
   padding: 0.8vw 1.5vw;
@@ -106,7 +106,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.btn.registrarse:hover {
+.boton-registrarse:hover {
   background-color: #8C2125;
 }
 
