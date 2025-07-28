@@ -93,21 +93,29 @@ body {
   outline: none;
 }
 
-/* BOTÓN */
 .boton-registrarse {
-  background-color: #c06568;
-  color: white;
-  padding: 0.8vw 1.5vw;
-  border: none;
-  border-radius: 0.8vw;
-  font-size: 1vw;
-  cursor: pointer;
+  display: block;
   width: 100%;
+  padding: 1vw;
+  font-size: 1.1vw;
+  font-weight: bold;
+  color: #bb8688;
+  background-color: #8C2125;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+  box-shadow: 0 0.3vw 0 #5e1014;
   transition: background-color 0.3s ease;
 }
 
 .boton-registrarse:hover {
-  background-color: #8C2125;
+  background-color: #bb8688;
+  color: #5e1014;
+}
+
+.boton-registrarse:active {
+  transform: translateY(0.15vw);
+  box-shadow: 0 0.1vw 0 #5e1014;
 }
 
 .registro-texto a {
